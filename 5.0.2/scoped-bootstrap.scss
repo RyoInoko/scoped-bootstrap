@@ -1,0 +1,16 @@
+.bootstrap {
+    // from bootstrap/normalized
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    // from bootstrap/scaffolding
+    font-size: 10px;
+    // font-family: $font-family-base;
+    // font-size: $font-size-base;
+    // line-height: $line-height-base;
+    // color: $text-color;
+    // background-color: $body-bg;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    @import "original-scss/bootstrap"
+}
